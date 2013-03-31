@@ -977,8 +977,8 @@ span.wpcf7-form-control-wrap textarea{
 	padding: 0px 0px 0px 7px; margin: 10px 5px 10px; line-height: 20px; }
 span.wpcf7-form-control-wrap input.wpcf7-file{ width: auto; height: auto; background-color: transparent; border: none;
 	-webkit-box-shadow: none; box-shadow: none; margin-left: 0; max-width: 90%; }
-span.wpcf7-form-control-wrap textarea{ height: 165px; width: 590px; margin: 10px 5px 10px; padding: 10px; 
-max-width: 100%; line-height: 20px; max-width: 90%; }
+span.wpcf7-form-control-wrap textarea{ height: 80px; width: 590px; margin: 10px 5px 10px; padding: 10px; 
+max-width: 100%; line-height: 20px; max-width: 86%; }
 
 div.wpcf7 p{ font-weight: bold; }
 div.wpcf7 p span.wpcf7-form-control-wrap textarea, div.wpcf7 p span.wpcf7-form-control-wrap input{ font-weight: normal; }
