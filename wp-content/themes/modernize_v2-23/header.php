@@ -17,6 +17,7 @@
 	<!-- CSS
   ================================================== -->
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" />
+	<link rel="stylesheet" href="<?php echo GOODLAYERS_PATH; ?>/claymore/style-custom.css" type="text/css" />
 	
 	<?php global $gdl_is_responsive ?>
 	<?php if( $gdl_is_responsive ){ ?>
