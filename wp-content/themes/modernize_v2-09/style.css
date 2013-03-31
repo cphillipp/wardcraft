@@ -2,7 +2,7 @@
 Theme Name: Modernize
 Theme URI: -
 Description: Modernize Wordpress Theme
-Version: 2.09
+Version: 2.23
 Author: Goodlayers
 Author URI: http://goodlayers.com
 License:
@@ -701,10 +701,10 @@ div.portfolio-thumbnail-video object{ display: block; margin: 0px auto;}
 div.portfolio-thumbnail-slider{ text-align: center; margin: 0px auto; overflow: hidden; }
 div.portfolio-thumbnail-slider .flexslider{ display: block; }
 div.portfolio-thumbnail-slider ol.flex-control-nav{ display: none; }
-div.portfolio-thumbnail-slider ul.flex-direction-nav .prev{ 
+div.portfolio-thumbnail-slider ul.flex-direction-nav .flex-prev{ 
 	background: url('images/thumbnail-nav.png'); width: 31px; 
 	height: 24px; bottom: 0px; left: 0px; top: auto;}
-div.portfolio-thumbnail-slider ul.flex-direction-nav .next{
+div.portfolio-thumbnail-slider ul.flex-direction-nav .flex-next{
 	background: url('images/thumbnail-nav.png'); width: 31px; height: 24px;
 	background-position: 31px 0px; bottom: 0px; left: 31px; top:auto; }
 h2.portfolio-thumbnail-title{ font-size: 15px; margin-top: 15px; margin-bottom: 10px; }
@@ -789,8 +789,8 @@ div.single-port-date{ margin-top: 8px; }
 div.single-port-tag{ margin-top: 8px; }
 div.single-port-visit-website{ padding-left: 28px; margin-top: 10px; }
 div.about-author-wrapper{ margin-top: 40px; padding: 18px; }
-div.about-author-avartar{ float: left; }
-div.about-author-info{ margin-left: 110px; }
+div.about-author-avartar{ float: left; margin-right: 20px; width: 90px; }
+div.about-author-info{ overflow: hidden; }
 div.about-author-title{ font-size: 18px; margin-top: 3px; margin-bottom: 5px; }
 
 div.social-share-title{ margin-top: 40px; font-size: 18px; }
@@ -989,3 +989,7 @@ div.wpcf7 .ajax-loader{ display: none; }
 
 .rsswidget img { float: left; margin-right: 5px; margin-top: 4px; }
 
+/* CUSTOM */
+.contact-widget label {margin-bottom:0;}
+.contact-widget input {margin-bottom:6px; background:#ddd !important; color:#000 !important;}
+.contact-widget textarea {margin-bottom:6px; background:#ddd !important; color:#000 !important;}
