@@ -988,8 +988,3 @@ div.wpcf7 .ajax-loader{ display: none; }
 .anythingSlider .fluid-width-video-wrapper{ padding: 0px !important; }
 
 .rsswidget img { float: left; margin-right: 5px; margin-top: 4px; }
-
-/* CUSTOM */
-.contact-widget label {margin-bottom:0;}
-.contact-widget input {margin-bottom:6px; background:#ddd !important; color:#000 !important;}
-.contact-widget textarea {margin-bottom:6px; background:#ddd !important; color:#000 !important;}
