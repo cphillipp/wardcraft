@@ -38,7 +38,7 @@
 			<!-- Get Copyright Text -->
 			<?php if( $gdl_show_copyright == 'enable' ){ ?>
 				<div class="copyright-wrapper">
-					<!-- CUSTOM added this wrapper --><div style="margin:0 auto; width:980px;">
+					<!-- CUSTOM added this wrapper --><div class="copy-inner">
 						<div class="copyright-left">
 							<?php echo do_shortcode( __(get_option(THEME_SHORT_NAME.'_copyright_left_area'), 'gdl_front_end') ); ?>
 						</div> 
