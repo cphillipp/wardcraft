@@ -1,4 +1,5 @@
-		<div class="footer-wrapper">
+	</div> <!-- container --> <!-- CUSTOM moved up -->
+		<div class="footer-wrapper" style="width:100%;">
 			<?php $gdl_show_footer = get_option(THEME_SHORT_NAME.'_show_footer','enable'); ?>
 			
 			<?php if( $gdl_show_footer == 'enable' ){ ?>
@@ -47,7 +48,7 @@
 				</div>
 			<?php } ?>
 		</div><!-- footer-wrapper -->
-	</div> <!-- container -->
+	
 </div> <!-- body-wrapper -->
 	
 <?php wp_footer(); ?>
