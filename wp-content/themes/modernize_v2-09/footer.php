@@ -1,4 +1,4 @@
-	</div> <!-- container --> <!-- CUSTOM moved up -->
+	</div> <!-- container --> <!-- CUSTOM moved up added width 100% below -->
 		<div class="footer-wrapper" style="width:100%;">
 			<?php $gdl_show_footer = get_option(THEME_SHORT_NAME.'_show_footer','enable'); ?>
 			
@@ -38,13 +38,15 @@
 			<!-- Get Copyright Text -->
 			<?php if( $gdl_show_copyright == 'enable' ){ ?>
 				<div class="copyright-wrapper">
-					<div class="copyright-left">
-						<?php echo do_shortcode( __(get_option(THEME_SHORT_NAME.'_copyright_left_area'), 'gdl_front_end') ); ?>
-					</div> 
-					<div class="copyright-right">
-						<?php echo do_shortcode( __(get_option(THEME_SHORT_NAME.'_copyright_right_area'), 'gdl_front_end') ); ?>
-					</div> 
-					<div class="clear"></div>
+					<!-- CUSTOM added this wrapper --><div style="margin:0 auto; width:980px;">
+						<div class="copyright-left">
+							<?php echo do_shortcode( __(get_option(THEME_SHORT_NAME.'_copyright_left_area'), 'gdl_front_end') ); ?>
+						</div> 
+						<div class="copyright-right">
+							<?php echo do_shortcode( __(get_option(THEME_SHORT_NAME.'_copyright_right_area'), 'gdl_front_end') ); ?>
+						</div> 
+						<div class="clear"></div>
+					</div><!-- END CUSTOM -->
 				</div>
 			<?php } ?>
 		</div><!-- footer-wrapper -->
