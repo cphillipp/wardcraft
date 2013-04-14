@@ -1017,5 +1017,6 @@ h1.single-port-title 				{margin:47px 0 20px !important; padding:0 !important; l
 h1.single-port-title a 				{padding:0 10px; color:#FFF !important; font-size:20px !important; display:block; overflow:hidden;}
 h1.single-port-title a:hover 		{color:#FFF !important;}
 h1.single-port-title span 			{font-size:15px; float:right;}
-.footer-widget-wrapper:nth-child(3) .one-third h3 {padding:0 0 0 30px;}
+.footer-widget-wrapper:nth-child(3) .one-third h3 {padding:0 0 0 30px !important;}
+.footer-widget-wrapper .one-third:nth-child(3) h3 {padding:0 0 0 30px !important;}
 
