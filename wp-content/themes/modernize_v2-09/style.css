@@ -1011,10 +1011,10 @@ div.container 						{background:transparent !important; -moz-box-shadow: 0px 0px
 .custom-button img 					{margin:0 12px; padding:0; display:inline-block; vertical-align:middle;}
 .custom-button span 				{margin:0; padding:0 0 0 12px; line-height:30px; display:inline-block; border-left:1px solid #FFF;}
 .custom-title 						{padding:0 10px; color:#FFF; font-size:18px; line-height:30px; background:#433b3a; border:1px solid #FFF; -moz-box-shadow:3px 3px 10px #000; -webkit-box-shadow:3px 3px 10px #000; box-shadow:3px 3px 10px #000;}
-h1.single-port-title 				{margin:47px 0 20px !important; padding:0 10px !important; line-height:50px; background:#433b3a; position:relative; border:none !important;}
+h1.single-port-title 				{margin:47px 0 20px !important; padding:0 !important; line-height:50px; background:#433b3a; position:relative; border-bottom:none !important;}
 h1.single-port-title:after 			{-webkit-transform: rotate(3deg); -moz-transform: rotate(3deg); -o-transform: rotate(3deg); -ms-transform: rotate(3deg); transform: rotate(3deg); right: 10px; left: auto;}
 h1.single-port-title:before, h1.single-port-title:after		{z-index: -1; position: absolute; content: ""; bottom: 15px; left: 10px; width: 50%; top: 80%; max-width:300px; background: rgba(0, 0, 0, 0.7); -webkit-box-shadow: 0 15px 10px rgba(0,0,0, 0.7); -moz-box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7); box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7); -webkit-transform: rotate(-3deg); -moz-transform: rotate(-3deg); -o-transform: rotate(-3deg); -ms-transform: rotate(-3deg); transform: rotate(-3deg);}
-h1.single-port-title a 				{color:#FFF !important; font-size:20px !important; display:block; overflow:hidden;}
+h1.single-port-title a 				{padding:0 10px; color:#FFF !important; font-size:20px !important; display:block; overflow:hidden;}
 h1.single-port-title span 			{font-size:15px; float:right;}
 
 
