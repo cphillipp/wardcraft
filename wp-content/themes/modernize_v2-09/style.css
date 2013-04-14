@@ -1018,4 +1018,5 @@ h1.single-port-title a 				{padding:0 10px; color:#FFF !important; font-size:20p
 h1.single-port-title a:hover 		{color:#FFF !important;}
 h1.single-port-title span 			{font-size:15px; float:right;}
 .footer-widget-wrapper .one-third:nth-child(3) h3 {padding:0 0 0 30px !important;}
+h2.portfolio-thumbnail-title a span	{display:none;}
 
