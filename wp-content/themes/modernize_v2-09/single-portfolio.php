@@ -129,8 +129,8 @@
 						echo '</div>';
 						echo '</div>';
 						
-						// Single header
-						echo '<div class="twelve columns mt0">';
+						// Single header was <div class="twelve columns mt0">
+						echo '<div class="sixteen columns mt0">';
 						echo '<h1 class="single-port-title post-title-color gdl-title gdl-divider">';
 						echo '<a href="' . get_permalink() . '">' . get_the_title() . '</a></h1>';
 						echo "<div class='single-port-content'>";
