@@ -41,44 +41,6 @@
 					the_post();
 
 					if( get_option(THEME_SHORT_NAME.'_use_portfolio_as') == 'portfolio style' ){
-						echo '<div class="sixteen columns mt0">';	
-						
-						echo '<div class="single-port-nav">';
-						previous_post_link('<div class="single-port-prev-nav"><div class="left-arrow"></div>%link</div>');
-						next_post_link('<div class="single-port-next-nav">%link<div class="right-arrow"></div></div>');
-						echo '</div>';
-						echo '<div class="clear"></div>';
-						
-						echo "</div>"; // sixteen-columns
-						
-						// Portfolio Information
-						echo '<div class="four columns mt0">';
-						echo '<div class="single-port-info">';
-						
-						$client_name = get_post_meta($post->ID, 'post-option-clients-name', true);
-						if(!empty($client_name)){
-							$client_head = $translator_client;
-							echo '<div class="single-port-client"><span class="head">' . $client_head . ':</span>' . $client_name . '</div>';
-						}
-						
-						echo '<div class="single-port-date"><span class="head">' . __('Date:','gdl_front_end') . '</span>';
-						echo get_the_time( GDL_DATE_FORMAT ) . '</div>';
-						
-						$portfolio_tag = get_the_term_list( $post->ID, 'portfolio-tag', '', ', ' , '' );
-						if(!empty($portfolio_tag)){
-						echo '<div class="single-port-tag"><span class="head">' . __('Tags:','gdl_front_end') . '</span>';
-						echo $portfolio_tag;
-						echo '</div>';
-						}
-						
-						$website_link = get_post_meta( $post->ID, 'post-option-website-url', true); 
-						if(!empty($website_link)){
-							$visit_site_head = $translator_visit_website;
-							echo '<div class="single-port-visit-website"><a href="' . $website_link . '">' . $visit_site_head . '</a></div>';
-						}
-						
-						echo '</div>';
-						echo '</div>';
 						
 						// Single header was <div class="twelve columns mt0">
 						echo '<div class="sixteen columns mt0">';
